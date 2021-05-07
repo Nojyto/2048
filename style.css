@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select:   none;
+    -khtml-user-select:    none;
+    -moz-user-select:      none;
+    -ms-user-select:       none;
+    user-select:           none;
+}
+
+:root {
+    --black:#776e65;
+    --grey: #bbada0;
+    --white:#faf8ef;
+}
+
+body {
+    width: 435px;
+    margin: auto;
+    background-color: var(--white);
+    height: 50%;
+}
+
+header {
+    width: 435px;
+    align-items: flex-end;
+    display: flex;
+}
+
+.title{
+    font-size: 80px;
+    font-weight: 600;
+    color: var(--black);
+    padding-right: 35px;
+}
+
+.pointDisplay {
+    width:  100px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    background-color: var(--grey);
+    font-weight: 1000;
+    text-align: center;
+}
+
+main {
+    background-color: var(--grey);
+    padding: 10px;
+    position: relative;
+    width: 435px;
+}
+
+.row {
+    width: 425px;
+    height: 100px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.tile {
+    width:  100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/*.cell {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--black);
+}
+
+.cell.oneone {
+    transform: translateX(315px);
+    transition: transform 0.05s ease-in;
+}*/
+
+@media screen and (max-device-width : 425px) {
+    /*sito niekas nematot*/
+    body {
+        padding: 17%;
+        transform: scale(0.6);
+        transform-origin: 0 0;
+    }
+}
