@@ -22,6 +22,7 @@
 }
 
 body {
+    overscroll-behavior: none;
     width: 435px;
     margin: auto;
     background-color: var(--white);
