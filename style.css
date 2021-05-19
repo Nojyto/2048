@@ -57,6 +57,7 @@ main {
     padding: 10px;
     position: relative;
     width: 435px;
+    justify-content: center;
 }
 
 .row {
