@@ -91,11 +91,10 @@ main {
 }*/
 
 @media screen and (max-device-width : 425px) {
-    /*sito niekas nematot*/
     body {
-        padding: 17%;
+        /*padding: 17%;
         transform: scale(0.6);
-        transform-origin: 0 0;
+        transform-origin: 0 0;*/
         height: 100%;
         overflow: hidden;
     }
