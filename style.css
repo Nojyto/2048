@@ -92,8 +92,7 @@ main {
 
 @media screen and (max-device-width : 425px) {
     body {
-        margin: 5px;
-        transform: scale(0.6);
+        transform: scale(0.8);
         transform-origin: 0 0;
         height: 100%;
         overflow: hidden;
