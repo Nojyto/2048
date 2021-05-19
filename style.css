@@ -24,7 +24,7 @@
 body {
     overscroll-behavior: none;
     width: 435px;
-    margin: auto;
+    /*margin: auto;*/
     background-color: var(--white);
     height: 50%;
 }
