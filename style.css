@@ -22,9 +22,8 @@
 }
 
 body {
-    overscroll-behavior: none;
     width: 435px;
-    /*margin: auto;*/
+    margin: auto;
     background-color: var(--white);
     height: 50%;
 }
@@ -57,7 +56,6 @@ main {
     padding: 10px;
     position: relative;
     width: 435px;
-    justify-content: center;
 }
 
 .row {
@@ -75,20 +73,6 @@ main {
     text-align: center;
     margin-right: 5px;
 }
-
-/*.cell {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 100px;
-    height: 100px;
-    background-color: var(--black);
-}
-
-.cell.oneone {
-    transform: translateX(315px);
-    transition: transform 0.05s ease-in;
-}*/
 
 @media screen and (max-device-width : 425px) {
     body {
